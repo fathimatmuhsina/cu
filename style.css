@@ -1,0 +1,547 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;;
+}
+.base-head{
+    height: 120px;
+    width: 100%;
+    background-color: #0c426f;
+}
+.head{
+    
+    height: 100px;
+    width: 60%;
+ 
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.head-left{
+    width: 30%;
+    float: left;
+    height: 100px;
+    margin-top: 10px;
+    padding-right: 30px;
+}
+.search-icon{
+  margin-left: 536px;
+  background-color: #1f3b52;
+  height: 26px;
+  width: 26px;
+ margin-top: 22px;
+cursor: pointer;
+
+}
+.search-icon i{
+  color: #fff;
+  padding-top: 9px;
+  margin-left: 8px;
+}  
+    
+    
+
+.head-right{
+    width: 30%;
+    float: left;
+    height: 100px;
+    
+    margin-top:10px;
+    margin-left: 20%;
+}
+.head-bottom{
+    border: 1px solid;
+    border-color:#4a90c9;
+}
+.date-search{
+    padding-left: 350px;
+    margin-top: 10px;
+    
+
+}
+.search{
+    height: 25px;
+    margin-top: 20px;
+    background-color: #154c7a;
+    color: #9dbbd5;
+    padding-left: 5px;
+    border: 1px solid;
+    border-color: #154c7a;
+    float: left;
+}
+.img-search {
+  width:20px;
+  height: 20px;
+  float: left;
+  background-color: #6c7074;
+}
+.img-search img{
+  width:20px;
+  height: 20px;
+}
+.date{
+    color: #9dbbd5;
+    font-size: 12px;
+    padding-left: 30px;
+    text-decoration: none;
+}
+.malayalam
+{
+    text-align: center;
+    color: #9dbbd5;
+    text-decoration: none;
+    cursor: pointer;
+}
+.head-bottom{
+    width: 100%;
+    height: 40px;
+    background-color:#0c426f;
+    float: left;
+    border-top: 2px solid ;
+    border-color: #3b6180;
+}
+.link-section{
+    
+        height: 50px;
+        width: 60%;
+    background-color: #0c426f;
+ 
+        margin-left: 20%;
+        margin-right: 20%;
+        font-weight: 900;
+        padding-left: 20px;
+   
+        
+}
+
+.link{
+    height: 45px;
+    padding-top: 10px;
+    font-size: 15px;
+    width:auto;
+    padding-left:30px;
+    float: left;
+    background-color: beige;
+    text-decoration: none;
+    color: #9dbbd5;
+    border: 1px solid;
+    border-color:#154c7a;
+    background-color: #0c426f;
+    font-weight:600;
+}
+.link a{
+  text-decoration: none;
+  color: aliceblue;
+  padding-right: 20px;
+  
+}
+
+.link:hover{
+    background-color: #154c7a;
+
+}
+.top-section{
+    width: 100%;
+    height: 410px;
+    margin: 0;
+    background-color: #b3c0ca;
+}
+.top-section img{
+    width: 100%;
+    height: 410px;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -75px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 16px;
+    color: white;    
+    border: 1px solid;
+    user-select: none;
+  }
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color:#9dbbd5 ;
+  }
+  .left-section{
+  
+    width: 20%;
+    height: 1000px;
+    float: left;
+  }
+ 
+  .main-section{
+    
+    width: 60%;
+    height: 1124px;
+    margin-right: 20%;
+    margin-left: 20%;
+    
+  }
+  .departments
+  {
+   height: auto;
+    width:auto;
+    border-bottom: 4px solid;
+    
+  }
+  .departments a{
+    text-decoration: none;
+    color: #6c7074;
+  }
+  .ahead a{
+    text-decoration: none;
+    color: #6c7074;
+    font-weight:700;
+    font-size: 15px;
+  }
+  /* .first-hr
+  {
+    color: #ccd6dd;
+
+  } */
+
+  .portal
+  {
+  
+    height: 200px;
+    width:auto;
+    
+  }
+  .portal-section{
+    color: #1a7bca;
+    
+  
+  }
+  .content{
+    
+    height: auto;
+    width:auto;
+    padding-left: 50px;
+
+  }
+  data{
+    width:100%;
+  }
+  .research-highlights
+  {
+   
+    height: 300px;
+    width:60%;
+    
+    margin-left: 20%;
+    
+
+  }
+  .research-highlights img{
+    height: 170px;
+    width: 300px;
+    margin-top: 40px;
+    border: 1px solid;
+    margin-left: 50px; 
+  }
+  .acheivements
+  {
+    
+    height: 300px;
+    width:60%;
+    margin-left: 20%;
+    
+
+  }
+  .acheivements img{
+    height: 170px;
+    width: 300px;
+    margin-top: 60px;
+    border: 1px solid;
+    margin-left: 50px;
+    
+  }
+  .resources{
+    border: 1px solid;
+    height: 585px;
+    width:23%;
+    float: left;
+    
+ }
+  .announcements{
+   
+    height: 585px;
+    width:45%;
+    float: left;
+    border: 1px solid;
+    margin-left: 20px;
+  }
+ .data-centre a{
+  color: #382ab8;
+  text-decoration: none;
+  font-weight: 600;
+ 
+
+ }
+ .data-centre li{
+  padding-top: 5px;
+  padding-bottom: 10px;
+ }
+  .quick-links
+  {
+
+    border:1px solid;
+    height: 585px;
+    width:23%;
+    float: left;
+    margin-left: 20px;
+    
+  }
+  .admission{
+       text-align: center;
+        height: 200px;
+        width: 25%;
+        padding-top: 100px;
+        /* padding-left: 20px; */
+        float: left;
+  }
+  .pareekshabhavan{
+    text-align: center;
+    height: 200px;
+        width: 25%;
+        padding-top: 100px;
+        /* padding-left: 20px; */
+        float: left;
+
+  }
+  .research{
+    text-align: center;
+    height: 200px;
+        width: 25%;
+        padding-top: 100px;
+        /* padding-left: 20px; */
+        float: left;
+
+  }
+  .distance{
+    text-align: center;
+    height: 200px;
+        width: 25%;
+        padding-top: 100px;
+        /* padding-left: 20px; */
+        float: left;
+
+  }
+  .portal-section
+  {
+    margin-top: 30px;
+   margin-left: 20px;
+   font-size: 15px ;
+   font-weight:600;
+    border: 3px solid;
+    border-color: #154c7a;
+    background-color: #fff;
+    width: 22%;
+    text-align: center;
+    padding-top: 10px;
+    height: 35px;
+    float: left;
+  }
+  .head{
+    background-color: #e4ebf0;
+    height: 25px;
+    padding-left: 10px;
+    width: auto;
+    margin: 0;
+    padding-top: 10px;
+    color: chocolate;
+    font-weight: 700;
+    font-size: 15px;
+    border-bottom: 1px solid;
+    border-color: #6c7074;
+  }
+  .head a{
+    color:#6c7074;
+    text-decoration: none;
+  }
+  .head label{
+    color:#b3c0ca;
+  }
+ 
+  .data a{
+    list-style-type: none;
+    height: 500px;
+    text-decoration: none;
+    padding-left: 20px;
+    color:#6c7074 ;
+    font-size: 15px;
+
+  }
+  .list-left
+  {
+    list-style-type: none;
+    text-decoration: none;
+    padding-left: 1px;
+    background-color: #fff;
+  }
+  .list-left a{
+    font-size: 12px;
+  }
+  .hr{
+    border-top: 1px dotted;
+    
+  }
+  .footer-head
+  {
+    background-color: #154c7a;
+    width: 100%;
+    height: 120px;
+    float: left;
+  }
+  .footer-head-container{
+   
+    height: 115px;
+    width: 60%;
+    margin-left: 20%;
+    background-color: #154c7a;
+    border-bottom: 1px solid;
+    border-color: #6c7074;
+  }
+  .one{
+    float: left;
+    padding-top: 20px;
+    padding-left: 15px;
+    height: 75px;
+    margin-left: 25px;
+
+
+  }
+  .two{
+    color: #fff;
+    text-align: center
+  }
+
+  .footer-main
+  {
+    background-color: #154c7a;
+    width: 100%;
+    height: 250px;
+    float: left;
+    
+  }
+  .footer-smallsection
+  {
+    background-color: #154c7a;
+    width: 100%;
+    height:15px;
+    float: left;
+    border-bottom: 1px solid;
+    border-color: #6c7074;
+    border-top: 1px solid;
+    border-color: #6c7074;
+  }
+  .footer-bottom
+  {
+    background-color:#0c426f;
+    width: 100%;
+    height: 75px;
+    float: left;
+
+    
+  }
+  .footer-main-container{
+    width:60%;
+   
+    height: 300px;
+    margin-left: 22%;
+  }
+  .admin{
+   
+    height: 300px;
+    width: 250px;
+    float: left;
+  
+  }
+  .student{
+    
+    height: 300px;
+    width: 250px;
+    
+    float: left;
+  }
+  .general{
+    
+    height: 300px;
+    width: 250px;
+    float: left;
+    
+  }
+  .connect{
+    
+    height: 300px;
+    width: 250px;
+    float: left;
+  }
+  .connection{
+    margin-left: 60px;
+    height: 50px;
+    width: 120px;
+    float: left;
+    
+  }
+  .utube img, .facebook img, .insta img{
+    height: 30px;
+    width: 30px;
+    float: left;
+    margin-left: 10px;
+
+  }
+  .three,.four,.five{
+    padding-left: 20px;
+  }
+  .three li, .four li, .five li{
+    
+    list-style-image: initial;
+    color: #9dbbd5;
+   
+    }
+  .three a, .four a, .five a{
+   color: #9dbbd5;
+   text-decoration: none;
+   font-size:12px;
+   
+  }
+  .footer-bottom-container{
+    height: 50px;
+    width: 50%;
+  
+    margin-left: 25%;
+    font-size: 10px;
+    
+
+  }
+  .copy
+  {
+    height: 50px;
+    width: 30%;
+    padding-top: 10px;
+    float: left;
+    color: #3c87c4;
+    
+
+  }
+  .cucc{
+    height: 50px;
+    width: 30%;
+   padding-top: 10px;
+    float: left;
+    margin-left: 40%;
+    color: #3c87c4;
+    
+   }
+   .cucc label{
+    padding-left:190px;
+   }
+   
